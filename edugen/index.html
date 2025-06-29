@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduGen - Transform PDFs into Interactive Learning Tools</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">
+                    <i class="fas fa-graduation-cap"></i>
+                    EduGen
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#how-it-works">How It Works</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#profile" id="profile-link"><i class="fas fa-user-circle"></i> Profile</a></li>
+                </ul>
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Transform Your PDFs into Interactive Learning Tools</h1>
+                    <p class="hero-subtitle">Upload textbooks, notes, or research papers and instantly generate summaries, quizzes, flashcards, and more with AI-powered EduGen.</p>
+                    <div class="hero-buttons">
+                        <a href="#upload" class="btn">Get Started</a>
+                        <a href="#how-it-works" class="btn btn-outline">Learn More</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://via.placeholder.com/600x400" alt="EduGen Dashboard Preview">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2 class="section-title">Powerful Learning Features</h2>
+            <p class="section-subtitle">EduGen turns static documents into dynamic study resources to enhance comprehension and retention.</p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3 class="feature-title">Smart Summaries</h3>
+                    <p class="feature-desc">AI-generated concise summaries of key concepts from your documents to save you time.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-question-circle"></i>
+                    </div>
+                    <h3 class="feature-title">Quiz Generation</h3>
+                    <p class="feature-desc">Automatically create multiple-choice, true/false, and short answer questions from your content.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h3 class="feature-title">Interactive Flashcards</h3>
+                    <p class="feature-desc">Turn key terms and concepts into digital flashcards for effective memorization.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-highlighter"></i>
+                    </div>
+                    <h3 class="feature-title">Keyword Highlighter</h3>
+                    <p class="feature-desc">Automatically identify and highlight important terms and concepts in your documents.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3 class="feature-title">Progress Tracking</h3>
+                    <p class="feature-desc">Monitor your learning progress with detailed analytics and performance metrics.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 class="feature-title">Mobile Friendly</h3>
+                    <p class="feature-desc">Access your study materials anytime, anywhere with our responsive web app.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <h2 class="section-title">How EduGen Works</h2>
+            <p class="section-subtitle">Transform your study materials in just three simple steps.</p>
+            
+            <div class="steps">
+                <div class="steps-line"></div>
+                
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3 class="step-title">Upload Your PDF</h3>
+                    <p class="step-desc">Upload textbooks, lecture notes, research papers, or any educational PDF document.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3 class="step-title">AI Processing</h3>
+                    <p class="step-desc">Our AI analyzes the content, identifies key concepts, and structures the information.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3 class="step-title">Access Learning Tools</h3>
+                    <p class="step-desc">Get instant access to summaries, quizzes, flashcards, and other interactive tools.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Upload Section -->
+    <section class="upload-section" id="upload">
+        <div class="container">
+            <h2 class="section-title">Ready to Transform Your Learning?</h2>
+            <p class="section-subtitle">Upload your first PDF and experience the power of interactive learning.</p>
+            
+            <div class="upload-container">
+                <div class="upload-area" id="uploadArea">
+                    <div class="upload-icon">
+                        <i class="fas fa-cloud-upload-alt"></i>
+                    </div>
+                    <h3>Drag & Drop Your PDF Here</h3>
+                    <p class="upload-text">or click to browse files</p>
+                    <button class="btn">Select File</button>
+                    <input type="file" class="file-input" accept=".pdf">
+                </div>
+                <p class="supported-formats">Supported formats: PDF (max file size 25MB)</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Users Say</h2>
+            <p class="section-subtitle">Thousands of students and educators are already using EduGen to enhance their learning experience.</p>
+            
+            <div class="testimonial-slider">
+                <div class="testimonial-card">
+                    <img src="https://via.placeholder.com/70" alt="User" class="testimonial-avatar">
+                    <p class="testimonial-text">"EduGen has completely transformed how I study. The AI-generated quizzes help me identify gaps in my understanding, and the flashcards are perfect for quick review sessions."</p>
+                    <h4 class="testimonial-author">Sarah Johnson</h4>
+                    <p class="testimonial-role">Medical Student, Harvard University</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <h2 class="section-title">Simple, Transparent Pricing</h2>
+            <p class="section-subtitle">Choose the plan that fits your learning needs.</p>
+            
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3 class="pricing-title">Free</h3>
+                    <div class="pricing-price">$0 <span class="pricing-period">/month</span></div>
+                    <ul class="pricing-features">
+                        <li>5 PDF uploads per month</li>
+                        <li>Basic summaries</li>
+                        <li>10 quiz questions per PDF</li>
+                        <li>20 flashcards per PDF</li>
+                        <li>Community support</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline">Get Started</a>
+                </div>
+                
+                <div class="pricing-card popular">
+                    <div class="popular-badge">Most Popular</div>
+                    <h3 class="pricing-title">Pro</h3>
+                    <div class="pricing-price">$9.99 <span class="pricing-period">/month</span></div>
+                    <ul class="pricing-features">
+                        <li>Unlimited PDF uploads</li>
+                        <li>Advanced AI summaries</li>
+                        <li>50 quiz questions per PDF</li>
+                        <li>100 flashcards per PDF</li>
+                        <li>Priority support</li>
+                        <li>Progress analytics</li>
+                    </ul>
+                    <a href="#" class="btn">Upgrade Now</a>
+                </div>
+                
+                <div class="pricing-card">
+                    <h3 class="pricing-title">Institution</h3>
+                    <div class="pricing-price">Custom</div>
+                    <ul class="pricing-features">
+                        <li>Unlimited users</li>
+                        <li>All Pro features</li>
+                        <li>Custom branding</li>
+                        <li>API access</li>
+                        <li>Dedicated account manager</li>
+                        <li>Bulk upload tools</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline">Contact Sales</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <p class="section-subtitle">Find answers to common questions about EduGen.</p>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>How does EduGen process my PDFs?</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>EduGen uses advanced AI and natural language processing to analyze your PDF documents. It extracts text, identifies key concepts, relationships between ideas, and important facts to generate summaries, questions, and learning materials.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Is my data secure with EduGen?</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we take data security very seriously. All uploaded documents are encrypted both in transit and at rest. You maintain full ownership of your content, and we never share your materials with third parties.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Can I use EduGen for group study sessions?</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely! With our Pro and Institution plans, you can share your generated study materials with classmates or students. Our platform supports collaborative learning features perfect for study groups.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>What types of PDFs work best with EduGen?</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>EduGen works best with well-structured educational materials like textbooks, lecture notes, research papers, and study guides. Documents with clear headings, paragraphs, and academic content yield the best results.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Can I export my study materials?</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, you can export flashcards as Anki decks, quizzes as PDFs or CSV files, and summaries in multiple formats. This allows you to study offline or use materials with other apps.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Profile Section -->
+    <section class="profile-section" id="profile">
+        <div class="container">
+            <h2 class="section-title">Your Profile</h2>
+            <p class="section-subtitle">Manage your account and learning preferences</p>
+            
+            <div class="profile-container">
+                <div class="profile-sidebar">
+                    <div class="profile-avatar">
+                        <img src="https://via.placeholder.com/150" alt="Profile Picture" id="profile-picture">
+                        <button class="btn btn-outline btn-small" id="change-avatar">Change</button>
+                    </div>
+                    <ul class="profile-menu">
+                        <li class="active" data-tab="account">Account Settings</li>
+                        <li data-tab="preferences">Learning Preferences</li>
+                        <li data-tab="documents">Your Documents</li>
+                        <li data-tab="subscription">Subscription</li>
+                    </ul>
+                </div>
+                
+                <div class="profile-content">
+                    <!-- Account Settings Tab -->
+                    <div class="profile-tab active" id="account-tab">
+                        <h3>Account Information</h3>
+                        <form class="profile-form">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" value="John Doe">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" value="john@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="institution">Institution</label>
+                                <input type="text" id="institution" value="University of Example">
+                            </div>
+                            <div class="form-group">
+                                <label for="study-field">Field of Study</label>
+                                <select id="study-field">
+                                    <option>Medicine</option>
+                                    <option selected>Computer Science</option>
+                                    <option>Engineering</option>
+                                    <option>Business</option>
+                                    <option>Arts</option>
+                                    <option>Other</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn">Save Changes</button>
+                        </form>
+                    </div>
+                    
+                    <!-- Learning Preferences Tab -->
+                    <div class="profile-tab" id="preferences-tab">
+                        <h3>Learning Preferences</h3>
+                        <form class="profile-form">
+                            <div class="form-group">
+                                <label>Summary Style</label>
+                                <div class="radio-group">
+                                    <label>
+                                        <input type="radio" name="summary-style" checked> Concise
+                                    </label>
+                                    <label>
+                                        <input type="radio" name="summary-style"> Detailed
+                                    </label>
+                                    <label>
+                                        <input type="radio" name="summary-style"> Bullet Points
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label>Quiz Difficulty</label>
+                                <div class="radio-group">
+                                    <label>
+                                        <input type="radio" name="quiz-difficulty"> Beginner
+                                    </label>
+                                    <label>
+                                        <input type="radio" name="quiz-difficulty" checked> Intermediate
+                                    </label>
+                                    <label>
+                                        <input type="radio" name="quiz-difficulty"> Advanced
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label>Flashcard Style</label>
+                                <select>
+                                    <option>Basic (Front/Back)</option>
+                                    <option selected>Enhanced (With Images)</option>
+                                    <option>Minimalist</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn">Save Preferences</button>
+                        </form>
+                    </div>
+                    
+                    <!-- Your Documents Tab -->
+                    <div class="profile-tab" id="documents-tab">
+                        <h3>Your Uploaded Documents</h3>
+                        <div class="documents-list">
+                            <div class="document-card">
+                                <div class="document-icon">
+                                    <i class="fas fa-file-pdf"></i>
+                                </div>
+                                <div class="document-info">
+                                    <h4>Introduction to Biology</h4>
+                                    <p>Uploaded: 2 days ago</p>
+                                    <div class="document-stats">
+                                        <span><i class="fas fa-question-circle"></i> 42 questions</span>
+                                        <span><i class="fas fa-layer-group"></i> 78 flashcards</span>
+                                    </div>
+                                </div>
+                                <div class="document-actions">
+                                    <button class="btn btn-outline btn-small">View</button>
+                                    <button class="btn btn-outline btn-small"><i class="fas fa-ellipsis-v"></i></button>
+                                </div>
+                            </div>
+                            
+                            <div class="document-card">
+                                <div class="document-icon">
+                                    <i class="fas fa-file-pdf"></i>
+                                </div>
+                                <div class="document-info">
+                                    <h4>Computer Science Fundamentals</h4>
+                                    <p>Uploaded: 1 week ago</p>
+                                    <div class="document-stats">
+                                        <span><i class="fas fa-question-circle"></i> 35 questions</span>
+                                        <span><i class="fas fa-layer-group"></i> 62 flashcards</span>
+                                    </div>
+                                </div>
+                                <div class="document-actions">
+                                    <button class="btn btn-outline btn-small">View</button>
+                                    <button class="btn btn-outline btn-small"><i class="fas fa-ellipsis-v"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Subscription Tab -->
+                    <div class="profile-tab" id="subscription-tab">
+                        <h3>Your Subscription</h3>
+                        <div class="subscription-card">
+                            <div class="subscription-info">
+                                <h4>Pro Plan</h4>
+                                <p class="subscription-status active">Active until: June 30, 2024</p>
+                                <p class="subscription-features">
+                                    <i class="fas fa-check"></i> Unlimited PDF uploads<br>
+                                    <i class="fas fa-check"></i> Advanced AI summaries<br>
+                                    <i class="fas fa-check"></i> 50 quiz questions per PDF<br>
+                                    <i class="fas fa-check"></i> 100 flashcards per PDF<br>
+                                    <i class="fas fa-check"></i> Priority support
+                                </p>
+                            </div>
+                            <div class="subscription-actions">
+                                <button class="btn btn-accent">Upgrade</button>
+                                <button class="btn btn-outline">Cancel Subscription</button>
+                                <button class="btn btn-outline">Download Invoices</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>EduGen</h3>
+                    <p>Transforming static PDFs into dynamic learning experiences with AI-powered tools.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Features</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">PDF Processing</a></li>
+                        <li><a href="#">AI Summaries</a></li>
+                        <li><a href="#">Quiz Generator</a></li>
+                        <li><a href="#">Flashcards</a></li>
+                        <li><a href="#">Progress Tracking</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Resources</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Tutorials</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Webinars</a></li>
+                        <li><a href="#">Research</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 EduGen. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
